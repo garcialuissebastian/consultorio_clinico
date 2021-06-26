@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vertibular" targetNamespace="http://tempuri.org/vertibular.xsd" xmlns:mstns="http://tempuri.org/vertibular.xsd" xmlns="http://tempuri.org/vertibular.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vertibular" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="vertibular" msprop:Generator_UserDSName="vertibular">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vestibular" msprop:Generator_TableClassName="vestibularDataTable" msprop:Generator_TableVarName="tablevestibular" msprop:Generator_RowChangedName="vestibularRowChanged" msprop:Generator_TablePropName="vestibular" msprop:Generator_RowDeletingName="vestibularRowDeleting" msprop:Generator_RowChangingName="vestibularRowChanging" msprop:Generator_RowEvHandlerName="vestibularRowChangeEventHandler" msprop:Generator_RowDeletedName="vestibularRowDeleted" msprop:Generator_RowClassName="vestibularRow" msprop:Generator_UserTableName="vestibular" msprop:Generator_RowEvArgName="vestibularRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="motivo" msprop:Generator_ColumnVarNameInTable="columnmotivo" msprop:Generator_ColumnPropNameInRow="motivo" msprop:Generator_ColumnPropNameInTable="motivoColumn" msprop:Generator_UserColumnName="motivo" type="xs:string" minOccurs="0" />
+              <xs:element name="definicion_sub" msprop:Generator_ColumnVarNameInTable="columndefinicion_sub" msprop:Generator_ColumnPropNameInRow="definicion_sub" msprop:Generator_ColumnPropNameInTable="definicion_subColumn" msprop:Generator_UserColumnName="definicion_sub" type="xs:string" minOccurs="0" />
+              <xs:element name="romberg" msprop:Generator_ColumnVarNameInTable="columnromberg" msprop:Generator_ColumnPropNameInRow="romberg" msprop:Generator_ColumnPropNameInTable="rombergColumn" msprop:Generator_UserColumnName="romberg" type="xs:string" minOccurs="0" />
+              <xs:element name="unterberger" msprop:Generator_ColumnVarNameInTable="columnunterberger" msprop:Generator_ColumnPropNameInRow="unterberger" msprop:Generator_ColumnPropNameInTable="unterbergerColumn" msprop:Generator_UserColumnName="unterberger" type="xs:string" minOccurs="0" />
+              <xs:element name="test_dix_hall" msprop:Generator_ColumnVarNameInTable="columntest_dix_hall" msprop:Generator_ColumnPropNameInRow="test_dix_hall" msprop:Generator_ColumnPropNameInTable="test_dix_hallColumn" msprop:Generator_UserColumnName="test_dix_hall" type="xs:string" minOccurs="0" />
+              <xs:element name="dedo_nariz" msprop:Generator_ColumnVarNameInTable="columndedo_nariz" msprop:Generator_ColumnPropNameInRow="dedo_nariz" msprop:Generator_ColumnPropNameInTable="dedo_narizColumn" msprop:Generator_UserColumnName="dedo_nariz" type="xs:string" minOccurs="0" />
+              <xs:element name="adiadococinesia" msprop:Generator_ColumnVarNameInTable="columnadiadococinesia" msprop:Generator_ColumnPropNameInRow="adiadococinesia" msprop:Generator_ColumnPropNameInTable="adiadococinesiaColumn" msprop:Generator_UserColumnName="adiadococinesia" type="xs:string" minOccurs="0" />
+              <xs:element name="aud" msprop:Generator_ColumnVarNameInTable="columnaud" msprop:Generator_ColumnPropNameInRow="aud" msprop:Generator_ColumnPropNameInTable="audColumn" msprop:Generator_UserColumnName="aud" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_pac" msprop:Generator_ColumnVarNameInTable="columnId_pac" msprop:Generator_ColumnPropNameInRow="Id_pac" msprop:Generator_ColumnPropNameInTable="Id_pacColumn" msprop:Generator_UserColumnName="Id_pac" type="xs:string" minOccurs="0" />
+              <xs:element name="Especialista" msprop:Generator_ColumnVarNameInTable="columnEspecialista" msprop:Generator_ColumnPropNameInRow="Especialista" msprop:Generator_ColumnPropNameInTable="EspecialistaColumn" msprop:Generator_UserColumnName="Especialista" type="xs:string" minOccurs="0" />
+              <xs:element name="Paciente" msprop:Generator_ColumnVarNameInTable="columnPaciente" msprop:Generator_ColumnPropNameInRow="Paciente" msprop:Generator_ColumnPropNameInTable="PacienteColumn" msprop:Generator_UserColumnName="Paciente" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Nac" msprop:Generator_ColumnVarNameInTable="columnFecha_Nac" msprop:Generator_ColumnPropNameInRow="Fecha_Nac" msprop:Generator_ColumnPropNameInTable="Fecha_NacColumn" msprop:Generator_UserColumnName="Fecha_Nac" type="xs:string" minOccurs="0" />
+              <xs:element name="Doc" msprop:Generator_ColumnVarNameInTable="columnDoc" msprop:Generator_ColumnPropNameInRow="Doc" msprop:Generator_ColumnPropNameInTable="DocColumn" msprop:Generator_UserColumnName="Doc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

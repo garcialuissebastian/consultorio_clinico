@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D2D429B-9D55-4147-8B02-C4C5B9AA57AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Be</RootNamespace>
+    <AssemblyName>Be</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audiencias.cs" />
+    <Compile Include="Audiencia_req.cs" />
+    <Compile Include="Bitacora.cs" />
+    <Compile Include="Clientes.cs" />
+    <Compile Include="Combos.cs" />
+    <Compile Include="departamento.cs" />
+    <Compile Include="distrito.cs" />
+    <Compile Include="hosp_dias.cs" />
+    <Compile Include="hosp_gen_turnos.cs" />
+    <Compile Include="hosp_hc.cs" />
+    <Compile Include="kx_cliente.cs" />
+    <Compile Include="kx_config.cs" />
+    <Compile Include="Kx_Modelo.cs" />
+    <Compile Include="kx_pwd.cs" />
+    <Compile Include="mysql_usuarios.cs" />
+    <Compile Include="ordenes_servicio.cs" />
+    <Compile Include="pais.cs" />
+    <Compile Include="PermisoBase.cs" />
+    <Compile Include="PermisoCompuesto.cs" />
+    <Compile Include="PermisoSimple.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="provincia.cs" />
+    <Compile Include="PUESTOS .cs" />
+    <Compile Include="sueldo.cs" />
+    <Compile Include="Tarjeta.cs" />
+    <Compile Include="TicketAuth.cs" />
+    <Compile Include="TipoDoc.cs" />
+    <Compile Include="turnos.cs" />
+    <Compile Include="USUARIO_INTRANET.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
