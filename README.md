@@ -15,3 +15,6 @@ Sistema para Consultorio/Clinicas
 - LINK MODO DESARROLLO 
  
 - DEMO : http://desarrollo.hardsoft.com.ar/App/ORL/Reservar.aspx
+
+
+ ![alt tag](http://desarrollo.hardsoft.com.ar/images/TurnosPantalla.png?d=2) 
